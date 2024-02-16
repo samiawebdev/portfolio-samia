@@ -773,7 +773,7 @@ transition: filter .4s;
   /*background-color: var(--first-color);  bouton contact orange au survol*/
   /* background-color: var(--white-color); */
   /* color: var(--black-color); */
-  border: 6px solid var(--white-color);
+  border: 3px solid var(--black-color);
   
 }
 
@@ -1105,13 +1105,13 @@ column-gap contrôle la distance entre les deux colonnes de la grille. */
 
 .projects__link i {
   font-size: 1rem;
-  color: var(--title-color);
+  color: var(--text-color-light);
   transition: color .4s;
 }
 
 .projects__link:hover,
 .projects__link:hover i {
-  color: var(--first-color);
+  color: var(--black-color);
 }
 
 .projects__card:hover {
