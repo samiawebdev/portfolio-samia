@@ -1118,6 +1118,10 @@ column-gap contrôle la distance entre les deux colonnes de la grille. */
   background-color: var(--white-color);
 }
 
+.encours{
+  text-decoration: line-through;
+}
+
 /*=============== CONTACT ===============*/
 .contact {
   padding-bottom: 0;
