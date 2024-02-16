@@ -1016,7 +1016,15 @@ transition: filter .4s;
 }
 
 
-
+.projects__mario {
+  background: url(../img/mario4.gif
+  );
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-position-y 7s linear;
+}
 
 .projects__img {
   height: 207px;
