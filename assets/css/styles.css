@@ -639,8 +639,8 @@ transition: filter .4s;
 */
 
 .home__social {
-  height: fit-content;
-  width: auto;
+  /* height: fit-content; */
+  /* width: auto; */
   position: absolute;
   left: -3rem;
   top: 0;
@@ -653,6 +653,7 @@ transition: filter .4s;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  justify-content: center;
   /*dispose les elements de façon verticale*/
 }
 
