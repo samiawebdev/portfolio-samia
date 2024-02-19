@@ -642,7 +642,6 @@ transition: filter .4s;
   height: fit-content;
   width: auto;
   position: absolute;
-  will-change: transform;
   left: -3rem;
   top: 0;
   bottom: 0;
