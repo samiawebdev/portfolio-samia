@@ -641,6 +641,7 @@ transition: filter .4s;
 .home__social {
   height: fit-content;
   position: absolute;
+  will-change: transform;
   left: -3rem;
   top: 0;
   bottom: 0;
