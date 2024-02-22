@@ -639,13 +639,13 @@ transition: filter .4s;
 */
 
 .home__social {
-  /* height: fit-content; */
+  /* height: max-content; */
   /* width: auto; */
   position: absolute;
   left: -3rem;
   top: 0;
   bottom: 0;
-  margin: auto;
+  margin: auto 0;
   /* les icones sont au milieu */
   /* display: grid;
   row-gap: 1rem; */
@@ -1126,10 +1126,6 @@ column-gap contrôle la distance entre les deux colonnes de la grille. */
 
 .projects__card:hover {
   background-color: var(--white-color);
-}
-
-.encours{
-  text-decoration: line-through;
 }
 
 /*=============== CONTACT ===============*/
