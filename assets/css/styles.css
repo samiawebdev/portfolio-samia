@@ -947,7 +947,7 @@ transition: filter .4s;
   background-color: var(--title-color);
   position: absolute;
   left: -1.75rem;
-  top: .5rem;
+  top: .95rem;
 }
 
 .about__item {
@@ -970,6 +970,14 @@ transition: filter .4s;
   align-items: center;
   column-gap: 1rem;
   /*espace entre les items*/
+}
+
+.about__arrow {
+  /*trait tourbillon*/
+  filter: invert(1);
+  width: 32px;
+  margin: 0 auto;
+  /*centré*/
 }
 
 /*=============== SERVICES ===============*/
@@ -1341,14 +1349,6 @@ column-gap contrôle la distance entre les deux colonnes de la grille. */
 
 }
 
-.contact__social-arrow {
-  /*trait tourbillon*/
-  color: black;
-  width: 32px;
-  margin: 0 auto;
-  /*centré*/
-}
-
 .contact__social-data {
   display: flex;
   flex-direction: column;
@@ -1530,6 +1530,11 @@ column-gap contrôle la distance entre les deux colonnes de la grille. */
     right: -2.5rem;
   }
 
+  .about__arrow {
+    width: 40px;
+    filter: invert(1);
+  }
+
   .contact__data {
     width: 100%;
   }
@@ -1547,7 +1552,10 @@ column-gap contrôle la distance entre les deux colonnes de la grille. */
   .projects__container {
     grid-template-columns: 350px;
   } */
-  
+  .about__arrow {
+     filter: invert(1);  /*donne couleur noire à la flèche */
+  }
+
   .contact__data {
     width: 350px;
     padding: 4rem 1.5rem;
@@ -1565,10 +1573,7 @@ column-gap contrôle la distance entre les deux colonnes de la grille. */
     background-color: transparent;
   }
 
-  .contact__social_arrow {
-    filter: invert(1)
-  }
-
+  
   /* .contact__social-description-1{
 color: var(--text-color)
   }
@@ -1577,7 +1582,7 @@ color: var(--text-color)
     color: var(--title-color)
       } */
 
-  .dark-theme .contact__social-arrow {
+  .dark-theme .home__arrow {
     filter: none;
   }
 }
@@ -1939,6 +1944,11 @@ color: var(--text-color)
     column-gap: 1rem;
     /*espace entre les items*/
   }
+
+  .about__arrow {
+    width: 40px;
+    color: black;
+  }
   .button__ghost {
     padding: 0.75rem;
   }
@@ -2028,10 +2038,6 @@ color: var(--text-color)
     flex-direction: row;a
     align-items: center;
     column-gap: 1.25rem;
-  }
-
-  .contact__social-arrow {
-    width: 40px;
   }
 
   .contact__social-links {
